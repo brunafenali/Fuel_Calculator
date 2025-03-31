@@ -1,4 +1,4 @@
-package com.example.fuelcalculator
+package com.brunafenali.fuelcalculator
 
 import android.content.Intent
 import android.os.Bundle
