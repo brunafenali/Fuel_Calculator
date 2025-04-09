@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-</resources>
+
+<color name="main_background">#FFEBEE</color> <!-- Cor de fundo da imagem -->
+<color name="primary_button">#F44336</color> <!-- Cor do botão -->
+<color name="primary_button_text">#FFFFFF</color> <!-- Texto do botão -->
+    <color name="red_clean">#E57373</color>
+    </resources>

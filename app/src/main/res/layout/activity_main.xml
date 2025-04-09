@@ -1,31 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp">
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
 
-    <!-- Tela de Preço do Combustível -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Digite o preço do combustível (R$)"
-        android:textSize="18sp"
-        android:layout_marginBottom="10dp"/>
-
-    <EditText
-        android:id="@+id/edtPreco"
+    <!-- Bloco com fundo colorido e imagem -->
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:hint="Ex: 5.79"/>
+        android:layout_height="250dp"
+        android:background="@color/red_clean"
+        android:gravity="center">
 
-    <Button
-        android:id="@+id/btnProximoPreco"
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_fuel_calculator"
+            android:contentDescription="Imagem de uma bomba de gasolina com calculadora" />
+    </FrameLayout>
+
+    <!-- Texto do título -->
+    <TextView
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Próximo"
-        android:layout_marginTop="20dp"/>
+        android:text="Calculadora de gastos de combustível"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <!-- Texto menor -->
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcule quanto vai gastar de combustível na sua viagem."
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <!-- Botão iniciar -->
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/primary_button_text"
+        android:backgroundTint="@color/red_clean"
+        android:layout_marginTop="32dp" />
+
 </LinearLayout>

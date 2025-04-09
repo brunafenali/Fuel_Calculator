@@ -1,5 +1,7 @@
-package com.example.fuelcalculator.com.brunafenali.fuelcalculator
+package com.brunafenali.fuelcalculator
 
+
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView

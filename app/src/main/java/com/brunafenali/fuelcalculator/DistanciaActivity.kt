@@ -1,5 +1,6 @@
 package com.brunafenali.fuelcalculator
 
+import com.brunafenali.fuelcalculator.ResultadoActivity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -12,7 +13,7 @@ class DistanciaActivity : AppCompatActivity() {
         setContentView(R.layout.activity_distancia)
 
         val edtDistancia = findViewById<EditText>(R.id.edtDistancia)
-        val btnProximo = findViewById<Button>(R.id.btnProximo)
+        val btnProximo = findViewById<Button>(R.id.btnCalcular)
 
         val preco = intent.getFloatExtra("preco", 0f)
         val consumo = intent.getFloatExtra("consumo", 0f)
