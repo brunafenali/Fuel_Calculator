@@ -22,10 +22,21 @@
         android:inputType="numberDecimal"
         android:hint="Ex: 250"/>
 
+    <!-- Exibição do preço em Euro -->
+    <TextView
+        android:id="@+id/txtPrecoEuroDistancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço em Euro: €0.00"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"/>
+
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red_clean"
         android:text="Calcular"
         android:layout_marginTop="20dp"/>
 </LinearLayout>

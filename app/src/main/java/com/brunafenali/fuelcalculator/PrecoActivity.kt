@@ -7,24 +7,30 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
 class PrecoActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_preco)  // Confirme que o nome do XML está correto!
+        setContentView(R.layout.activity_preco)
 
-        val edtPreco = findViewById<EditText>(R.id.edtPreco)  // Confirme se esse ID está no XML
-        val btnProximo = findViewById<Button>(R.id.btnProximoPreco) // O ID do botão no XML é "btnProximoPreco"
+        val edtPreco = findViewById<EditText>(R.id.edtPreco)
+        val btnProximo = findViewById<Button>(R.id.btnProximoPreco)
+
+        val precoEuro = 1.50f  // O valor do euro fixo, como você mencionou.
 
         btnProximo.setOnClickListener {
-            val preco = edtPreco.text.toString()
+            val preco = edtPreco.text.toString().toFloatOrNull()
 
-            // Verifica se o campo não está vazio e se o valor é válido (com 1 ou 2 casas decimais)
-            if (preco.isNotEmpty() && preco.matches(Regex("^[0-9]+([.][0-9]{1,2})?\$"))) {
-                val precoFloat = preco.toFloat()
+            if (preco != null) {
+                // Agora, calculamos o valor final em euro, sem exibir o valor de euro para o usuário.
+                val precoEmEuro = preco * precoEuro  // Conversão do preço para euros
+
+                // Envia o valor para a próxima atividade
                 val intent = Intent(this, ConsumoActivity::class.java)
-                intent.putExtra("preco", precoFloat)
+                intent.putExtra("preco", preco)  // Passando o preço em reais
+                intent.putExtra("precoEmEuro", precoEmEuro)  // Passando o preço em euro para uso nos cálculos
                 startActivity(intent)
             } else {
-                edtPreco.error = "Insira um valor válido (ex: 5.79)"
+                edtPreco.error = "Por favor, insira um preço válido!"
             }
         }
     }

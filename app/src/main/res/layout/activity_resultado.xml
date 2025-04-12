@@ -20,10 +20,12 @@
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 0,00"
+        android:text="€ 0,00"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,7 +38,7 @@
         android:id="@+id/txtResumo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Preço do combustível: R$0.00\nConsumo do carro: 0.0 km/l\nDistância: 0 km"
+        android:text="Preço do combustível: €0.00\nConsumo do carro: 0.0 km/l\nDistância: 0 km"
         android:textSize="14sp"
         android:layout_marginBottom="20dp"/>
 
@@ -44,6 +46,7 @@
         android:id="@+id/btnNovoCalculo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red_clean"
         android:text="Novo Cálculo"
         android:layout_marginTop="20dp"/>
 </LinearLayout>

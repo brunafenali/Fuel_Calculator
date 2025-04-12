@@ -7,7 +7,7 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!-- Tela de Consumo do Carro -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,10 +22,12 @@
         android:inputType="numberDecimal"
         android:hint="Ex: 12.5"/>
 
+
     <Button
         android:id="@+id/btnProximoConsumo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red_clean"
         android:text="Próximo"
         android:layout_marginTop="20dp"/>
 </LinearLayout>

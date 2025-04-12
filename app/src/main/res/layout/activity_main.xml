@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="@android:color/white"
+    android:background="@drawable/bg_frame_curved"
     tools:context=".MainActivity">
 
     <!-- Bloco com fundo colorido e imagem -->
@@ -20,6 +20,7 @@
             android:id="@+id/imgLogo"
             android:layout_width="300dp"
             android:layout_height="250dp"
+            android:background="@color/red_clean"
             android:src="@drawable/ic_fuel_calculator"
             android:contentDescription="Imagem de uma bomba de gasolina com calculadora" />
     </FrameLayout>
@@ -46,6 +47,7 @@
         android:layout_marginTop="10dp"
         android:textAlignment="center"
         android:gravity="center"/>
+
 
     <!-- Botão iniciar -->
     <Button

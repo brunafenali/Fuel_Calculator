@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.brunafenali.fuelcalculator">
-
-    <!-- Permissões do aplicativo, caso precise de acesso à internet ou outras funcionalidades -->
-    <!-- Por enquanto, não há permissões adicionais -->
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Fuel Calculator"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FuelCalculator"
-        tools:targetApi="31">
+        android:theme="@style/Theme.FuelCalculator">
 
-        <!-- MainActivity: A tela inicial -->
-        <activity
-            android:name=".MainActivity"
+
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,26 +19,18 @@
             </intent-filter>
         </activity>
 
-        <!-- PrecoActivity: Tela para inserir o preço do combustível -->
-        <activity
-            android:name=".PrecoActivity"
+
+        <activity android:name=".PrecoActivity"
             android:exported="true" />
 
-        <!-- ConsumoActivity: Tela para inserir o consumo do carro -->
-        <activity
-            android:name=".ConsumoActivity"
+     <activity android:name=".ConsumoActivity"
+         android:exported="true" />
+
+        <activity android:name=".DistanciaActivity"
             android:exported="true" />
 
-        <!-- DistanciaActivity: Tela para inserir a distância até o destino -->
-        <activity
-            android:name=".DistanciaActivity"
-            android:exported="true" />
-
-        <!-- ResultadoActivity: Tela que mostra o resultado do cálculo -->
-        <activity
-            android:name=".ResultadoActivity"
-            android:exported="true" />
+        <activity android:name=".ResultadoActivity"
+            android:exported="true"/>
 
     </application>
-
 </manifest>

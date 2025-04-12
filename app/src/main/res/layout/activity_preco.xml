@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -5,6 +6,7 @@
     android:layout_height="match_parent"
     android:padding="24dp">
 
+    <!-- Imagem do Preço -->
     <ImageView
         android:id="@+id/imgPreco"
         android:layout_width="150dp"
@@ -15,6 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="40dp"/>
 
+    <!-- Título "Preço do Combustível" -->
     <TextView
         android:id="@+id/txtPrecoTitulo"
         android:layout_width="wrap_content"
@@ -27,6 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp"/>
 
+    <!-- Campo de entrada para o preço -->
     <EditText
         android:id="@+id/edtPreco"
         android:layout_width="0dp"
@@ -38,11 +42,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"/>
 
+    <!-- Botão para ir para a próxima tela -->
     <Button
         android:id="@+id/btnProximoPreco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Próximo"
+        android:backgroundTint="@color/red_clean"
         app:layout_constraintTop_toBottomOf="@id/edtPreco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
