@@ -6,43 +6,43 @@
     android:layout_height="match_parent"
     android:padding="24dp">
 
-    <!-- Imagem do Preço -->
+
     <ImageView
         android:id="@+id/imgPreco"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/fuel_price"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="30dp"/>
 
-    <!-- Título "Preço do Combustível" -->
+
     <TextView
         android:id="@+id/txtPrecoTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preço do Combustível"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/imgPreco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        android:layout_marginTop="50dp"/>
 
-    <!-- Campo de entrada para o preço -->
+
     <EditText
         android:id="@+id/edtPreco"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Ex: 5.79"
+        android:hint="Ex: 1.79"
         android:inputType="numberDecimal"
         app:layout_constraintTop_toBottomOf="@id/txtPrecoTitulo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="150dp"/>
 
-    <!-- Botão para ir para a próxima tela -->
+
     <Button
         android:id="@+id/btnProximoPreco"
         android:layout_width="wrap_content"
@@ -52,5 +52,5 @@
         app:layout_constraintTop_toBottomOf="@id/edtPreco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        android:layout_marginTop="120dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
