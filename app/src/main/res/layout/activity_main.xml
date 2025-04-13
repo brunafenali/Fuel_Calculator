@@ -6,21 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="@drawable/bg_frame_curved"
+    android:background="@color/red_clean"
     tools:context=".MainActivity">
 
 
     <FrameLayout
+        android:background="@drawable/bg_frame_curved"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@color/red_clean"
         android:gravity="center">
 
         <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="300dp"
             android:layout_height="250dp"
-            android:background="@color/red_clean"
             android:src="@drawable/ic_fuel_calculator"
             android:contentDescription="Imagem de uma bomba de gasolina com calculadora" />
     </FrameLayout>

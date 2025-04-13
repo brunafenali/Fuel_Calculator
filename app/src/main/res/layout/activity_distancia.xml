@@ -42,6 +42,7 @@
         android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/primary_button_text"
         android:backgroundTint="@color/red_clean"
         android:text="Calcular"
         android:layout_marginTop="32dp"/>

@@ -4,39 +4,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp">
+    android:background="@color/red_clean"
+    android:padding="1dp">
+    <FrameLayout
+        android:background="@drawable/bg_frame_curved"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center">
 
     <ImageView
         android:id="@+id/imgConsumo"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="200dp"
-        android:src="@drawable/carro_consumo"
-        android:layout_marginTop="32dp"/>
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/carro_consumo" />
+    </FrameLayout>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Digite o consumo do carro (km/l)"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_marginTop="32dp"/>
-
-    <EditText
-        android:id="@+id/edtConsumo"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:layout_marginTop="32dp"
-        android:hint="Ex: 12.5"/>
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+        >
 
 
-    <Button
-        android:id="@+id/btnProximoConsumo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/red_clean"
-        android:text="Próximo"
-        android:layout_marginTop="32dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite o consumo do carro (km/l)"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+
+        <EditText
+            android:id="@+id/edtConsumo"
+            android:layout_width="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="32dp"
+            android:hint="Ex: 12.5"/>
+
+
+        <Button
+            android:id="@+id/btnProximoConsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_button_text"
+            android:backgroundTint="@color/red_clean"
+            android:text="Próximo"
+            android:layout_marginTop="200dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
 </LinearLayout>

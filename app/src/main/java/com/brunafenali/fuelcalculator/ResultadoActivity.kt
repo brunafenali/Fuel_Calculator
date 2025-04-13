@@ -25,7 +25,7 @@ class ResultadoActivity : AppCompatActivity() {
 
         // Exibe o gasto final em Euro (sem mencionar a moeda em todas as telas)
         txtResultado.text = "Gasto final: € %.2f".format(gastoFinal)
-        txtResumo.text = "Preço do combustível: € %.2f\nConsumo: %.2f km/l\nDistância: %.2f km".format(preco, consumo, distancia)
+        txtResumo.text = "€ %.2f\n%.2f km/l\n%.2f km".format(preco, consumo, distancia)
 
         btnNovoCalculo.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)

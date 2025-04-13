@@ -15,7 +15,7 @@ class DistanciaActivity : AppCompatActivity() {
         val edtDistancia = findViewById<EditText>(R.id.edtDistancia)
         val btnCalcular = findViewById<Button>(R.id.btnCalcular)
 
-        // Recebe o preço, consumo e o preço em Euro
+
         val preco = intent.getFloatExtra("preco", 0f)
         val precoEuro = intent.getFloatExtra("precoEuro", 0f)
         val consumo = intent.getFloatExtra("consumo", 0f)
