@@ -7,7 +7,6 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!-- Tela de Resultado -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,6 +24,11 @@
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_clean"
+        android:orientation="vertical"/>
 
 
     <TextView
@@ -32,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="Resumo da viagem:"
         android:textSize="16sp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <TextView
         android:id="@+id/txtResumo"
@@ -48,5 +52,5 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/red_clean"
         android:text="Novo Cálculo"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="200dp"/>
 </LinearLayout>
