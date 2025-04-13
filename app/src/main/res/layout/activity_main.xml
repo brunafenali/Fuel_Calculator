@@ -9,7 +9,7 @@
     android:background="@drawable/bg_frame_curved"
     tools:context=".MainActivity">
 
-    <!-- Bloco com fundo colorido e imagem -->
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
@@ -25,7 +25,7 @@
             android:contentDescription="Imagem de uma bomba de gasolina com calculadora" />
     </FrameLayout>
 
-    <!-- Texto do título -->
+
     <TextView
         android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
         android:textAlignment="center"
         android:gravity="center"/>
 
-    <!-- Texto menor -->
+
     <TextView
         android:id="@+id/txtDescricao"
         android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
         android:gravity="center"/>
 
 
-    <!-- Botão iniciar -->
+
     <Button
         android:id="@+id/btnIniciar"
         android:layout_width="wrap_content"
