@@ -1,53 +1,51 @@
-<androidx.constraintlayout.widget.ConstraintLayout
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/red_clean">
 
-    <ImageView
-        android:id="@+id/imgPreco"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/fuel_price"
-        android:layout_marginTop="30dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout
+        android:background="@drawable/bg_frame_curved"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center">
 
-    <TextView
-        android:id="@+id/txtPrecoTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Preço do Combustível"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/imgPreco"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        <ImageView
+            android:id="@+id/imgPreco"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/fuel_price"
+            android:layout_marginTop="30dp"/>
 
-    <EditText
-        android:id="@+id/edtPreco"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Ex: 1.79"
-        android:inputType="numberDecimal"
-        app:layout_constraintTop_toBottomOf="@id/txtPrecoTitulo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+    </FrameLayout>
 
-    <Button
-        android:id="@+id/btnProximoPreco"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Próximo"
-        android:textColor="@color/primary_button_text"
-        android:backgroundTint="@color/red_clean"
-        app:layout_constraintTop_toBottomOf="@id/edtPreco"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/txtPrecoTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preço do Combustível (€)"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <EditText
+            android:id="@+id/edtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: 1.79"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnProximoPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Próximo"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="100dp" />
+    </LinearLayout>

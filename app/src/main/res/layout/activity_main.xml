@@ -56,8 +56,8 @@
         android:text="Iniciar"
         android:textAllCaps="false"
         android:textStyle="bold"
-        android:textColor="@color/primary_button_text"
-        android:backgroundTint="@color/red_clean"
-        android:layout_marginTop="32dp" />
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="200dp" />
 
 </LinearLayout>
