@@ -2,40 +2,33 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:gravity="center_horizontal"
+    android:background="@color/red_clean"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="Gasto final estimado:"
-        android:textSize="18sp"
-        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/txtResultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="€ 0,00"
-        android:textSize="22sp"
-        android:textStyle="bold" />
-
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:background="@color/red_clean"
-        android:orientation="vertical" />
+        android:layout_height="250dp"
+        android:background="@drawable/bg_frame_curved"
+        android:gravity="center">
 
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€ 0,00"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </FrameLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:text="Resumo da viagem:"
-        android:textSize="16sp" />
+        android:textStyle="bold"
+        android:textSize="22dp" />
 
 
     <LinearLayout
@@ -57,8 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20sp"
-            android:text="€ 0.00\n0.0 km/l\n0 km"
-            />
+            android:text="€ 0.00\n0.0 km/l\n0 km" />
 
 
     </LinearLayout>
@@ -69,7 +61,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:backgroundTint="@color/red_clean"
+        android:backgroundTint="@color/white"
         android:text="Novo Cálculo"
-        android:textColor="@color/primary_button_text" />
+        android:textStyle="bold"
+        android:textColor="@color/black" />
 </LinearLayout>
