@@ -30,7 +30,7 @@
             android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold"
-            android:layout_marginTop="35dp" />
+            android:layout_marginTop="40dp" />
 
         <EditText
             android:id="@+id/edtPreco"
@@ -38,8 +38,9 @@
             android:layout_height="wrap_content"
             android:hint="Ex: 1.79"
             android:textColor="@color/white"
+            android:textSize="18sp"
             android:inputType="numberDecimal"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="40dp" />
 
         <Button
             android:id="@+id/btnProximoPreco"
@@ -49,5 +50,5 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             android:backgroundTint="@color/background_azul_profissional"
-            android:layout_marginTop="200dp" />
+            android:layout_marginTop="250dp" />
     </LinearLayout>

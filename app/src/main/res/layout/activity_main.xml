@@ -42,9 +42,9 @@
         android:id="@+id/txtDescricao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calcule quanto vai gastar de combustível na sua viagem."
+        android:text="Precisa calcular seu gasto com combustível? Descubra em instantes e planeje sua viagem com mais tranquilidade."
         android:textSize="16sp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:textColor="@color/white"
         android:textAlignment="center"
         android:gravity="center"/>

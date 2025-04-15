@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/red_clean"
+    android:background="@color/background_verde_petroleo"
     android:padding="1dp">
     <FrameLayout
         android:background="@drawable/bg_frame_curved"
@@ -25,9 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal"
-
-        >
+        android:gravity="center_horizontal">
 
 
         <TextView
