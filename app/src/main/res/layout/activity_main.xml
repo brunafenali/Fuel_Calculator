@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="@color/red_clean"
+    android:background="@color/background_verde_petroleo"
     tools:context=".MainActivity">
 
 
@@ -19,7 +19,7 @@
         <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="300dp"
-            android:layout_height="250dp"
+            android:layout_height="300dp"
             android:src="@drawable/ic_fuel_calculator"
             android:contentDescription="Imagem de uma bomba de gasolina com calculadora" />
     </FrameLayout>
@@ -30,9 +30,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculadora de gastos de combustível"
-        android:textSize="22sp"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp"
         android:textAlignment="center"
         android:gravity="center"/>
 
@@ -43,7 +44,8 @@
         android:layout_height="wrap_content"
         android:text="Calcule quanto vai gastar de combustível na sua viagem."
         android:textSize="16sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
         android:textAlignment="center"
         android:gravity="center"/>
 
@@ -56,8 +58,8 @@
         android:text="Iniciar"
         android:textAllCaps="false"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/background_azul_profissional"
         android:layout_marginTop="200dp" />
 
 </LinearLayout>
