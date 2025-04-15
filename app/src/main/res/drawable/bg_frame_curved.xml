@@ -8,7 +8,7 @@
     <!-- Linha ao redor (borda) -->
     <stroke
         android:width="2dp"
-        android:color="@color/black" />
+        android:color="@color/accent_orange_soft" />
 
     <!-- Cantos arredondados personalizados -->
     <corners

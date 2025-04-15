@@ -1,10 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-<color name="main_background">#FFEBEE</color> <!-- Cor de fundo da imagem -->
-<color name="primary_button">#F44336</color> <!-- Cor do botão -->
-<color name="primary_button_text">#FFFFFF</color> <!-- Texto do botão -->
-    <color name="red_clean">#E57373</color>
-    </resources>
+    <color name="main_background">#FFEBEE</color> <!-- Cor de fundo da imagem -->
+    <color name="primary_button">#F44336</color> <!-- Cor do botão -->
+    <color name="primary_button_text">#FFFFFF</color> <!-- Texto do botão -->
+    <color name="red_clean">#FF7043</color> <!-- usa só em detalhes -->
+
+    <!-- Cores de fundo -->
+    <color name="background_cinza_azulado">#263238</color>
+    <color name="background_verde_petroleo">#004D40</color>
+    <color name="background_azul_profissional">#1E3A8A</color>
+
+    <!-- Cores de texto -->
+    <color name="text_primary_light">#FFFFFF</color>
+    <color name="text_primary_dark">#212121</color>
+
+    <!-- Botões -->
+    <color name="button_primary">#FFFFFF</color>
+    <color name="button_text_dark">#000000</color>
+    <color name="button_text_light">#FFFFFF</color>
+
+    <!-- Acentos / Destaques -->
+    <color name="accent_orange_soft">#FF7043</color> <!-- opcional, pra detalhes -->
+</resources>

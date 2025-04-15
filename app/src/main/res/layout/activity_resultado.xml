@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="@color/red_clean"
+    android:background="@color/background_verde_petroleo"
     android:orientation="vertical">
 
 
@@ -23,14 +23,16 @@
             android:textStyle="bold" />
     </FrameLayout>
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
         android:text="Resumo da viagem:"
-        android:textStyle="bold"
-        android:textSize="22dp" />
-
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,16 +43,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="100dp"
+            android:lineSpacingExtra="40dp"
             android:text="Preço do combustível:\nConsumo do carro:\nDistância:"
-            android:textSize="14sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:gravity="end"
             android:id="@+id/txtResumo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20sp"
+            android:layout_marginStart="120sp"
+            android:layout_marginTop="100dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:lineSpacingExtra="40dp"
             android:text="€ 0.00\n0.0 km/l\n0 km" />
 
 
@@ -61,9 +70,9 @@
         android:id="@+id/btnNovoCalculo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:backgroundTint="@color/white"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/background_azul_profissional"
         android:text="Novo Cálculo"
         android:textStyle="bold"
-        android:textColor="@color/black" />
+        android:textColor="@color/white" />
 </LinearLayout>
