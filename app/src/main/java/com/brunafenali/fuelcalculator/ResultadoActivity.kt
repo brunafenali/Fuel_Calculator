@@ -24,7 +24,7 @@ class ResultadoActivity : AppCompatActivity() {
         val btnNovoCalculo = findViewById<Button>(R.id.btnNovoCalculo)
 
         // Exibe o gasto final em Euro (sem mencionar a moeda em todas as telas)
-        txtResultado.text = "Gasto final: € %.2f".format(gastoFinal)
+        txtResultado.text = "€ %.2f".format(gastoFinal)
         txtResumo.text = "€ %.2f\n%.2f km/l\n%.2f km".format(preco, consumo, distancia)
 
         btnNovoCalculo.setOnClickListener {
