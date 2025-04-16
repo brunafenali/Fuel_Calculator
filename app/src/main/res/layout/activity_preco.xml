@@ -32,15 +32,21 @@
             android:textStyle="bold"
             android:layout_marginTop="40dp" />
 
-        <EditText
-            android:id="@+id/edtPreco"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Ex: 1.79"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:inputType="numberDecimal"
-            android:layout_marginTop="40dp" />
+    <EditText
+        android:id="@+id/edtPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: 1.79"
+        android:textColor="@color/white"
+        android:textColorHint="#B0BEC5"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="16dp"
+        android:background="@drawable/bg_edittext_box"
+        />
 
         <Button
             android:id="@+id/btnProximoPreco"
