@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Preço do Combustível (€)"
-            android:textColor="@color/white"
+            android:textColor="@color/accent_orange_soft"
             android:textSize="25sp"
             android:textStyle="bold"
             android:layout_marginTop="40dp" />
@@ -49,6 +49,6 @@
             android:text="Próximo"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:backgroundTint="@color/background_azul_profissional"
+            android:backgroundTint="@color/accent_orange_soft"
             android:layout_marginTop="250dp" />
     </LinearLayout>

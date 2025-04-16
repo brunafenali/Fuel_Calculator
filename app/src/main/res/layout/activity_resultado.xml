@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="30dp"
-        android:textColor="@color/white"
+        android:textColor="@color/accent_orange_soft"
         android:text="Resumo da viagem:"
         android:textSize="30dp"
         android:textStyle="bold" />
@@ -49,6 +49,7 @@
             android:textColor="@color/white"
             android:layout_marginTop="100dp"
             android:lineSpacingExtra="40dp"
+            android:textStyle="bold"
             android:text="Preço do combustível:\nConsumo do carro:\nDistância:"
             android:textSize="18sp" />
 
@@ -59,6 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="120sp"
             android:layout_marginTop="100dp"
+            android:textStyle="bold"
             android:textSize="18sp"
             android:textColor="@color/white"
             android:lineSpacingExtra="40dp"
@@ -73,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:backgroundTint="@color/background_azul_profissional"
+        android:backgroundTint="@color/accent_orange_soft"
         android:text="Novo Cálculo"
         android:textStyle="bold"
         android:textColor="@color/white" />

@@ -32,7 +32,7 @@
         android:text="Calculadora de gastos de combustível"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/accent_orange_soft"
         android:layout_marginTop="35dp"
         android:textAlignment="center"
         android:gravity="center"/>
@@ -59,7 +59,7 @@
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:backgroundTint="@color/background_azul_profissional"
+        android:backgroundTint="@color/accent_orange_soft"
         android:layout_marginTop="200dp" />
 
 </LinearLayout>
