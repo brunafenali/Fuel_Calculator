@@ -14,9 +14,9 @@
 
     <ImageView
         android:id="@+id/imgConsumo"
-        android:layout_width="250dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="0dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         android:src="@drawable/carro_consumo" />
     </FrameLayout>
@@ -31,28 +31,33 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             android:text="Digite o consumo do carro (km/l)"
+            android:textColor="@color/accent_orange_soft"
             android:textSize="25dp"
-            android:textStyle="bold"
-            android:layout_marginTop="32dp"/>
+            android:textStyle="bold" />
+
 
         <EditText
             android:id="@+id/edtConsumo"
             android:layout_width="match_parent"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="16dp"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:layout_marginTop="32dp"
-            android:hint="Ex: 12.5"/>
-
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="32dp"
+            android:padding="16dp"
+            android:textColorHint="#B0BEC5"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_edittext_box"
+            android:hint="Ex: 12.5"
+            android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/btnProximoConsumo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/accent_orange_soft"
             android:textStyle="bold"
             android:text="Próximo"
             android:layout_marginTop="200dp"/>
