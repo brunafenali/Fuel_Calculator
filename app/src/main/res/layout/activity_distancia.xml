@@ -29,7 +29,7 @@
         android:textStyle="bold"
         android:layout_marginTop="32dp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/accent_orange_soft"
         android:gravity="center"
         android:layout_marginBottom="40dp"/>
 
@@ -40,7 +40,12 @@
         android:inputType="numberDecimal"
         android:textSize="18sp"
         android:textColor="@color/white"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/bg_edittext_box"
+        android:padding="16dp"
         android:hint="Ex: 250"/>
 
 
@@ -48,9 +53,9 @@
         android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:backgroundTint="@color/background_azul_profissional"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/accent_orange_soft"
         android:text="Calcular"
-        android:layout_marginTop="250dp"/>
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 </LinearLayout>
