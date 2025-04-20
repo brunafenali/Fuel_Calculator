@@ -3,16 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
+    android:padding="1dp"
     android:background="@color/background_verde_petroleo"
     android:orientation="vertical">
+
 
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@drawable/bg_frame_curved"
+        android:layout_margin="24dp"
+        android:background="@drawable/bg_resultado_box"
         android:gravity="center">
-
 
 
         <TextView
@@ -29,8 +31,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
         android:textColor="@color/accent_orange_soft"
         android:text="Resumo da viagem:"
         android:textSize="30dp"
@@ -45,9 +47,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="20dp"
             android:textColor="@color/white"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="30dp"
             android:lineSpacingExtra="40dp"
             android:textStyle="bold"
             android:text="Preço do combustível:\nConsumo do carro:\nDistância:"
@@ -59,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="120sp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="30dp"
             android:textStyle="bold"
             android:textSize="18sp"
             android:textColor="@color/white"
