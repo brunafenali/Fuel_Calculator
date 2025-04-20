@@ -49,9 +49,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:textColor="@color/white"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="60dp"
             android:lineSpacingExtra="40dp"
-            android:textStyle="bold"
+
             android:text="Preço do combustível:\nConsumo do carro:\nDistância:"
             android:textSize="18sp" />
 
@@ -61,8 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="120sp"
-            android:layout_marginTop="30dp"
-            android:textStyle="bold"
+            android:layout_marginTop="60dp"
             android:textSize="18sp"
             android:textColor="@color/white"
             android:lineSpacingExtra="40dp"
