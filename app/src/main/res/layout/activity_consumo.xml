@@ -14,8 +14,8 @@
 
     <ImageView
         android:id="@+id/imgConsumo"
-        android:layout_width="400dp"
-        android:layout_height="300dp"
+        android:layout_width="290dp"
+        android:layout_height="210dp"
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         android:src="@drawable/carro_consumo" />
