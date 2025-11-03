@@ -12,7 +12,6 @@ Permite que o usuário planeje melhor o consumo de combustível e visualize rapi
 |-------|-------|-------------|---------|--------|
 | ![Start](./screenshots/start.png) | ![Price](./screenshots/price.png) | ![Consumption](./screenshots/consumption.png) | ![Distance](./screenshots/distance.png) | ![Result](./screenshots/result.png) |
 
-> Substitua os arquivos `.png` pelos prints reais do app.
 
 ---
 
