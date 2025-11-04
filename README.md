@@ -1,9 +1,9 @@
 # ⛽ Calculadora de Consumo de Combustível
-```
+
 Aplicativo Android simples e intuitivo para calcular **preço, consumo e distância** de viagens, desenvolvido em **Kotlin** com **XML**.  
 Permite que o usuário planeje melhor o consumo de combustível e visualize rapidamente os resultados.
 
-```
+
 ---
 
 ## :camera_flash: Screenshots
@@ -14,7 +14,7 @@ Permite que o usuário planeje melhor o consumo de combustível e visualize rapi
 
 
 ---
-```
+
 ## ⚙️ Funcionalidades
 
 - Entrada de dados de viagem (distância, consumo, combustível, preço)  
@@ -23,7 +23,7 @@ Permite que o usuário planeje melhor o consumo de combustível e visualize rapi
 - Interface moderna e responsiva  
 - Aprendizado sobre State e recomposição no Jetpack Compose
 
-```
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -33,14 +33,14 @@ Permite que o usuário planeje melhor o consumo de combustível e visualize rapi
 - MVVM (ViewModel + Repository Pattern)  
 - Android Studio  
 - Git / GitHub  
-```
+
 ---
 
 ## 🚀 Aprendizados
-```
+
 Durante o desenvolvimento, aprimorei o uso de **XML**, lógica de cálculo de forma limpa e organizada, além de reforçar conhecimentos em **MVVM** e integração entre **ViewModel e UI
 
-```
+
 
 
 ---
@@ -49,7 +49,6 @@ Durante o desenvolvimento, aprimorei o uso de **XML**, lógica de cálculo de fo
 ## 📜 Licença
 
 ```
-
 The MIT License (MIT)
 
 Copyright (c) 2025 Bruna Fenali
@@ -70,5 +69,4 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 ```
