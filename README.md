@@ -21,7 +21,8 @@ Permite que o usuário planeje melhor o consumo de combustível e visualize rapi
 - Cálculo automático de consumo e custo da viagem  
 - Resultados claros e organizados  
 - Interface moderna e responsiva  
-- Aprendizado sobre State e recomposição no Jetpack Compose  
+- Aprendizado sobre State e recomposição no Jetpack Compose
+
 ```
 ---
 
@@ -38,6 +39,7 @@ Permite que o usuário planeje melhor o consumo de combustível e visualize rapi
 ## 🚀 Aprendizados
 ```
 Durante o desenvolvimento, aprimorei o uso de **XML**, lógica de cálculo de forma limpa e organizada, além de reforçar conhecimentos em **MVVM** e integração entre **ViewModel e UI
+
 ```
 
 
@@ -68,4 +70,5 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 ```
